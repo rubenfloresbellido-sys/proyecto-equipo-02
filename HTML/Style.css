@@ -4,11 +4,12 @@
 }
 
 body {
-    background-color: #F8FAFC;
+    background-color: beige;
+    
 }
 
 #header1 {
-    background-color: #172554;
+    background-color: #1B2A4A;
     color: white;
     padding-bottom: 180px;
     min-height: 150px;
@@ -25,11 +26,12 @@ h4 {
 }
 
 #barra {
-    margin-left: 550px;
-    margin-top: 20px;
+    right: 20px;
+    top: 15px;
     position: absolute;
     font-size: 20px;
-    min-width: 2000px;
+    display: flex;
+    align-items: center;
 }
 
 a {
@@ -37,11 +39,13 @@ a {
     color: white;
     margin: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
 }
 
 a:hover {
     background-color: #67E8F9;
-    padding: 15px;
+
     border-radius: 30px;
     cursor: pointer;
     color: #172554;
@@ -62,30 +66,33 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20px;
     color: #67E8F9;
-    min-width: 2000px;
 }
 
 #section1 {
     margin-top: 50px;
     margin-left: 80px;
-    margin-right: 3%;
-    background-color: #164E63;
+    margin-right: 5%;
+    background-color: #F8F7F4;
     padding: 30px;
     color: white;
     box-shadow: 0px 8px 20px rgba(22, 78, 99, 0.35);
-    border: 2px solid #67E8F9;
+    border-left: 10px solid #5E1924;
 }
 
 #section1 p {
     margin: 20px;
+    color: #1B2A4A;
+    border-top: 1px solid #1B2A4A;
+    padding-top: 40px;
 }
 
 #section1 h2 {
     margin: 10px;
-    font-size: 40px;
-    color: #FFFFFF;
-    border-bottom: 3px solid #67E8F9;
-    padding-bottom: 10px;
+    margin-bottom: 30px ;
+    font-size: 30px;
+    background-color: #1B2A4A;
+    padding: 15px;
+    border-radius: 30px;
     width: fit-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
